@@ -10,11 +10,11 @@
 
     <p id="par_1">Something</p>
 
-    <button>Turn On</button>
+    <button onclick="turnOnTheLamp()">Turn On</button>
 
-    <img src="pic_bulboff.gif" width="100px" />
+    <img id="lamp" src="pic_bulboff.gif" width="100px" />
 
-    <button>Turn Off</button>
+    <button onclick="turnOffTheLamp()">Turn Off</button>
 
     <script>
       document.getElementById("par_1").innerHTML = "Hello";
@@ -22,6 +22,14 @@
 
       //This is the example of alert
       alert("This is an alert");
+
+      function turnOnTheLamp() {
+        document.getElementById("lamp").src = "pic_bulbon.gif";
+      }
+
+      function turnOffTheLamp() {
+        document.getElementById("lamp").src = "pic_bulboff.gif";
+      }
     </script>
   </body>
 </html>
