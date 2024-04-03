@@ -19,7 +19,7 @@
                         <h5>Registration Form</h5>
                     </div>
                     <div class="card-body">
-                        <table>
+                        <table class="table table-borderless">
                             <tr>
                                 <td>Name</td>
                                 <td>:</td>
@@ -45,7 +45,7 @@
                                 <td>Religion</td>
                                 <td>:</td>
                                 <td>
-                                    <select class="form-select ms-2" required>
+                                    <select class="form-select ms-2" name="religion" required>
                                         <option disabled selected value>-- Select on option --</option>
                                         <option>Islam</option>
                                         <option>Christian</option>

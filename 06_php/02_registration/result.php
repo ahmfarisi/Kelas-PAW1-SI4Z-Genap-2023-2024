@@ -32,31 +32,39 @@
                     <h5>Registration Data</h5>
                 </div>
                 <div class="card-body">
-                    <table>
+                    <table class="table">
+                        <tr>
+                            <td colspan="3">
+                              <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                <strong>Registration Succeedd !</strong> Thankyou !
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                              </div>
+                            </td>
+                        </tr>
                         <tr>
                             <td>Name</td>
-                            <td>&nbsp; : &nbsp; </td>
+                            <td>:</td>
                             <td>
                               <?php echo $name; ?>
                             </td>
                         </tr>
                         <tr>
                             <td>Gender</td>
-                            <td>&nbsp; : &nbsp; </td>
+                            <td>:</td>
                             <td>
                               <?php echo $gender; ?>
                             </td>
                         </tr>
                         <tr>
                             <td>Religion</td>
-                            <td>&nbsp; : &nbsp; </td>
+                            <td>:</td>
                             <td>
                                 <?php echo $religion; ?>
                             </td>
                         </tr>
                         <tr>
                             <td>Self Description</td>
-                            <td>&nbsp; : &nbsp; </td>
+                           <td>:</td>
                             <td>
                                 <?php echo $description; ?>
                             </td>
